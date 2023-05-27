@@ -1,0 +1,12 @@
+.img {
+    display: flex;
+}
+.img img {
+    height: 200px;
+    width: auto;
+    margin: auto;
+}
+p{
+    text-align: center;
+    margin: 0 25px;
+}

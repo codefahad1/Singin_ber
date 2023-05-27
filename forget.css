@@ -1,0 +1,16 @@
+
+
+.form-label {
+    margin-bottom: .5rem;
+    margin: 15px 0 0 0;
+}
+.buttons button {
+    background: #0059ff;
+    color: white;
+    border-radius: 6px;
+}
+
+.buttons .me-2 {
+    background: #e0e0e0;
+    color: #000;
+}

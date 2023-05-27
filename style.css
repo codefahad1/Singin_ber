@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #484874, rgb(14 78 18));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+/* Sign-up Form Container */
+.signup-container {
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    background-color: #ffffe4;
+}
+.signup-container h2{
+    text-align: center;
+    color: #676767;
+}
+
+/* Form Style */
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.signup-form button {
+    background-color: #68cbef;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+}
+
+.signup-form button:hover {
+    opacity: 0.8;
+}
+
+
+
+/* Responsive Layout */
+@media screen and (max-width: 600px) {
+    .signup-container {
+    max-width: 300px;
+    }
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+a h6{
+    color: #0f6cf7;
+    font-size: 13px;
+    margin: 13px 0;
+}
+
+.new_account {
+    margin: 33px 0 10px 0;
+    text-align: center;
+    /* background: #455155; */
+}
+.new_account a{
+    color: white;
+    background: #659e13;
+    padding: 10px;
+    font-weight: 600;
+}
